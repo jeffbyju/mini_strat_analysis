@@ -1,7 +1,7 @@
 absl-py==2.1.0
 altair==5.5.0
 amqp==5.1.1
-archspec @ file:///croot/archspec_1709217642129/work
+
 argcomplete==3.1.4
 attrs==24.3.0
 beautifulsoup4==4.12.3
@@ -201,8 +201,6 @@ tifffile==2023.3.21
 tinyperson==0.1.0
 toml==0.10.2
 tomli==2.0.1
-torch==2.0.0
-torchvision==0.15.1
 tornado==6.4.2
 tqdm==4.66.6
 typing_extensions==4.12.2
@@ -219,5 +217,4 @@ Werkzeug==2.2.2
 XlsxWriter==3.0.3
 yarg==0.1.9
 yfinance==0.2.51
-zipp==3.11.0
-zstandard @ file:///private/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_a5_i6g4o6n/croot/zstandard_1731356352787/work
+
