@@ -103,6 +103,7 @@ def main():
     # --- Sidebar or main input form ---
     with st.form("user_inputs"):
         ticker = st.text_input("Ticker (e.g., AAPL)", value="AAPL")
+        ticker = ticker.upper()
         start_date = st.date_input("Start Date", value=date(2020, 1, 1))
         end_date = st.date_input("End Date", value=date.today())
         

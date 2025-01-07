@@ -31,6 +31,7 @@ def run_volatility_adjusted_page():
 
     with st.form("vol_adjusted_form"):
         ticker = st.text_input("Ticker", value="AAPL")
+        ticker = ticker.upper()
         start_date = st.date_input("Start Date", value=date(2021,1,1))
         end_date = st.date_input("End Date", value=date.today())
         vol_threshold = st.number_input("Volume Threshold (%)", value=200.0)
